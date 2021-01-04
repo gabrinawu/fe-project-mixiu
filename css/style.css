@@ -29,7 +29,7 @@ p {
 
 /* utility classes */
 .container {
-  border: 2px black solid;
+  /* border: 2px black solid; */
   margin: 0 auto;
   max-width: 1100px;
   /* overflow:hidden防止margin塌陷清 除浮动 */
@@ -82,4 +82,98 @@ p {
 
 #showcase .showcase-content {
   color: orange;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+.text-primary {
+  color: tomato;
+}
+
+#showcase .showcase-content p {
+  font-size: 20px;
+  line-height: 1.7em;
+  padding-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: aliceblue;
+  background: chocolate;
+  padding: 13px 20px;
+}
+
+.btn:hover {
+  background: darkorange;
+}
+
+.btn-light {
+  background: lightsalmon;
+  color: darkred;
+}
+
+/* home-info */
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url(/img/kira2.jpg) no-repeat center center;
+  height: 100%;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  text-align: center;
+  height: 100%;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+.bg-bright {
+  background: sandybrown;
+  color: aliceblue;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
+
+/* features */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+.bg-coral {
+  background: coral;
+}
+
+.bg-light {
+  background: rgb(250, 105, 52);
+}
+
+footer {
+  text-align: center;
+  background: brown;
+  color: aliceblue;
+  padding: 20px;
+}
+
+/* 前面的div设置了浮动，没有清除的时候，下面的div padding无法设置 */
+.clr {
+  clear: both;
 }
