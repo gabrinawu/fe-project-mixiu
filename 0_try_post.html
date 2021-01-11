@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <title>post</title>
+    <style>
+      .post-body {
+        border: solid gray 2px;
+        width: max-content;
+      }
+
+      #post-label {
+        width: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <div class="post-body">
+        <h1>创建新帖</h1>
+        <div class="post-head">
+          <input id="post-label" type="text" />
+          <input id="post-label" type="text" />
+          <input type="text" />
+        </div>
+
+        <div class="post-icon">
+          <i class="fa fa-smile-o fa-3x" aria-hidden="true"></i>
+          <i class="fa fa-picture-o fa-3x" aria-hidden="true"></i>
+          <i class="fa fa-eye fa-3x" aria-hidden="true"></i>
+        </div>
+
+        <textarea
+          name="post-content"
+          id="post-content"
+          cols="50"
+          rows="10"
+        ></textarea>
+
+        <div id="post-submit">
+          <button class="post-submit-btn">提交</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
